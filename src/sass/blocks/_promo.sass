@@ -1,0 +1,93 @@
+.promo
+    position: relative
+    &__vector_right
+        position: absolute
+        top: -60px 
+        right: 0px
+        z-index: -1
+        img
+            width: 780px
+    &__vector_last
+        position: absolute
+        z-index: -1
+        top: 590px
+        left: 0
+    &__menu
+        display: flex
+        justify-content: space-between
+        width: 1140px
+        margin-top: 57px    
+        
+        nav
+            width: 560px
+            display: flex
+            justify-content: space-between
+        &-hamburger
+            margin-top: 10px
+            height: 12px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            div
+                width: 16px
+                height: 2px
+                background-color: #AAAAAB
+    &__nav
+        display: flex
+        width: 460px
+        justify-content: space-between
+        li
+            list-style: none
+        &-item
+            font-family: Circular Std
+            font-size: 20px
+            font-weight: 500
+            a
+                text-decoration: none
+                color: #AAAAAB
+                &:hover
+                    color: #AAAAAB
+            &_b
+                a
+                    text-decoration: none
+                    color: #56597A
+                    &:hover
+                        color: #56597A
+    &__info
+        
+        &-subtitle
+            font-size: 28px
+            font-weight: 500
+            text-align: left
+            color: $main-color
+            display: flex
+            align-items: flex-end
+            margin-bottom: 30px
+            .line
+                width: 30px
+                height: 3px
+                background-color: $main-color
+                margin-bottom: 13px
+                margin-right: 7px
+        &-title
+            width: 600px
+            font-size: 30px
+            font-weight: 700
+            text-align: left
+            color: #56597A
+            margin-bottom: 30px
+        &-text
+            width: 537px
+            font-size: 20px
+            font-weight: 400
+            line-height: 32px
+            text-align: left
+            color: #919299
+            margin-bottom: 42px
+    &__wrapper
+        display: flex
+        flex-direction: row-reverse
+        margin-top: 129px
+
+
+
