@@ -447,13 +447,18 @@ template {
 }
 .reasonswe__item:hover svg path {
   fill: #ffffff;
-  stroke-width: 20px;
 }
 .reasonswe__item:hover .reasonswe__subtitle {
   display: flex;
 }
 .reasonswe__item:hover div {
   color: #ffffff;
+}
+.reasonswe__item:hover a {
+  color: #ffffff;
+}
+.reasonswe__item:hover a:hover {
+  text-decoration: none;
 }
 .reasonswe__item svg {
   display: block;
@@ -485,6 +490,20 @@ template {
   color: #ffffff;
   display: none;
 }
+.reasonswe__block {
+  margin-top: 195px;
+  display: flex;
+  justify-content: space-between;
+}
+.reasonswe__block button {
+  margin-top: 40px;
+}
+.reasonswe__block-info {
+  margin-left: 80px;
+}
+.reasonswe__block-title {
+  margin-bottom: 24px;
+}
 
 .main__subtitle {
   font-size: 28px;
@@ -509,7 +528,75 @@ template {
   text-align: center;
 }
 
+.text-block {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #919299;
+}
+
+.aboutus {
+  padding-top: 195px;
+}
+.aboutus .teamwork {
+  display: flex;
+  align-items: center;
+}
+.aboutus .teamwork button {
+  margin-top: 40px;
+}
+.aboutus .testimonial {
+  margin-top: 207px;
+  display: flex;
+  align-items: center;
+}
+.aboutus .testimonial img {
+  width: 415px;
+}
+.aboutus .testimonial__info {
+  margin-left: 138px;
+  width: 507px;
+}
+.aboutus .testimonial__signature {
+  margin-top: 25px;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+  color: #56597A;
+}
+.aboutus .testimonial__location {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #ABABAB;
+  margin-top: 5px;
+}
+
+.vectors_right {
+  position: absolute;
+  top: 1955px;
+  right: 0;
+}
+.vectors_left {
+  position: absolute;
+  top: 2732px;
+  left: 0;
+}
+
+.companies {
+  margin: 0 auto;
+  margin-top: 165px;
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .container {
   width: 1170px;
   margin: 0 auto;
+}
+
+.body {
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
